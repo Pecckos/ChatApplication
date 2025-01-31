@@ -1,0 +1,11 @@
+Drop any database
+Remove any migration
+Make a full new migration
+Update the database from the migration
+
+
+
+dotnet ef database drop
+Remove-Item -Recurse -Force Migrations
+dotnet ef migrations add miInitial
+dotnet ef database update

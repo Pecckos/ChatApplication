@@ -1,0 +1,82 @@
+﻿@{
+    ViewData["Title"] = "Welcome to PecckosChat";
+}
+
+<div class="container py-5">
+    <div class="row align-items-center gy-5">
+        <div class="col-lg-6">
+            <div class="animate__animated animate__fadeInLeft">
+                <h1 class="display-4 fw-bold text-primary mb-4">
+                    Välkommen till PecckosChat! 🚀
+                </h1>
+                <p class="lead text-muted mb-4">
+                    Där varje meddelande är en äventyrlig resa genom digitala världar
+                </p>
+                
+                <div class="d-flex gap-3">
+                    <a asp-controller="Chat" asp-action="Index" class="btn btn-primary btn-lg">
+                        Starta Chatt <i class="bi bi-chat-dots"></i>
+                    </a>
+                    <a href="#features" class="btn btn-outline-secondary btn-lg">
+                        Läs Mer
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-6 text-center">
+            <img 
+                src="~/images/ChatPecckos.jpg" 
+                alt="Chat Illustration" 
+                class="img-fluid animate__animated animate__fadeInRight"
+            />
+        </div>
+    </div>
+</div>
+
+<div class="py-5 mt-5" style="background-color: #f8f9fa;">
+    <div class="container">
+        <h2 class="text-center mb-5">Våra funktioner</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="features">
+            <div class="col mb-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body text-center">
+                        <i class="bi bi-shield-lock text-primary display-4 mb-3"></i>
+                        <h3 class="card-title">Säker Kommunikation</h3>
+                        <p class="card-text text-muted">
+                            Krypterade meddelanden och högsta säkerhetsprioritet
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col mb-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body text-center">
+                        <i class="bi bi-lightning text-warning display-4 mb-3"></i>
+                        <h3 class="card-title">Snabb & Responsiv</h3>
+                        <p class="card-text text-muted">
+                            Realtidskommunikation utan fördröjning
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col mb-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body text-center">
+                        <i class="bi bi-people text-success display-4 mb-3"></i>
+                        <h3 class="card-title">Gemenskap</h3>
+                        <p class="card-text text-muted">
+                            Skapa kontakter, dela idéer, utforska världen
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+}
