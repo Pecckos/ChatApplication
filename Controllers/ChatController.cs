@@ -2,7 +2,10 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using PecckosChatProgram.Data;
 using PecckosChatProgram.Models;
+using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace PecckosChatProgram.Controllers
 {
@@ -19,7 +22,8 @@ public class ChatController : Controller
     // //Show the chat
      public IActionResult Index()
      {
-         var messages = _context.Message
+         var messages = _context.Messages
+         .Include(m => m.User) //Include User information
          .OrderBy(m => m.TimeStamp) //Sort the messages after time to List
          .ToList();
 
@@ -34,13 +38,21 @@ public class ChatController : Controller
          if(ModelState.IsValid)
          {
              messages.TimeStamp = DateTime.Now; //Add timestamp
-             _context.Message.Add(messages);
+             if (int.TryParse(User.FindFirstValue(ClaimTypes.NameIdentifier), out int userId))
+            {
+                messages.UserId = userId; // Om konvertering lyckades, sätt UserId
+            }
+            else
+            {
+                messages.UserId = null; // Om konvertering misslyckades, sätt UserId till null
+            } //Set the userid to the current user ID
+             _context.Messages.Add(messages);
              _context.SaveChanges(); //Save to the database
 
              return RedirectToAction("Index");
          }
 
-         return View("Index", _context.Message.ToList()); //Show errormessage
+         return View("Index", _context.Messages.ToList()); //Show errormessage
      }
     
         // // Statisk lista för att lagra meddelanden i minnet

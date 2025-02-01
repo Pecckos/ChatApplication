@@ -40,14 +40,5 @@ namespace PecckosChatProgram.Service
             return user;
 
         }
-
-
     }
-
-
-
-
-
-
-
 }

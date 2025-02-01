@@ -12,6 +12,24 @@
                 <p class="lead text-muted mb-4">
                     Där varje meddelande är en äventyrlig resa genom digitala världar
                 </p>
+
+                <div class="d-flex gap-3">
+    @if (User.Identity.IsAuthenticated)
+    {
+        <a asp-controller="Chat" asp-action="Index" class="btn btn-primary btn-lg">
+            Starta Chatt <i class="bi bi-chat-dots"></i>
+        </a>
+    }
+    else
+    {
+        <a asp-controller="Account" asp-action="Login" class="btn btn-primary btn-lg">
+            Logga in för att chatta <i class="bi bi-box-arrow-in-right"></i>
+        </a>
+    }
+    <a href="#features" class="btn btn-outline-secondary btn-lg">
+        Läs Mer
+    </a>
+</div>
                 
                 <div class="d-flex gap-3">
                     <a asp-controller="Chat" asp-action="Index" class="btn btn-primary btn-lg">

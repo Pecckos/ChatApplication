@@ -37,13 +37,66 @@ namespace PecckosChatProgram.Migrations
                     b.Property<DateTime>("TimeStamp")
                         .HasColumnType("datetime2");
 
+                    b.Property<int?>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Messages");
+
+                    b.HasData(
+                        new
+                        {
+                            id = 1,
+                            Message = "Welcome to Pecckos chat",
+                            TimeStamp = new DateTime(2024, 1, 31, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            UserId = 1
+                        });
+                });
+
+            modelBuilder.Entity("PecckosChatProgram.Models.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("UserName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
-                    b.ToTable("Message");
+                    b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            PasswordHash = "admin_default_hash",
+                            UserName = "Admin"
+                        });
+                });
+
+            modelBuilder.Entity("PecckosChatProgram.Models.ChatMessage", b =>
+                {
+                    b.HasOne("PecckosChatProgram.Models.User", "User")
+                        .WithMany("Messages")
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("PecckosChatProgram.Models.User", b =>
+                {
+                    b.Navigation("Messages");
                 });
 #pragma warning restore 612, 618
         }

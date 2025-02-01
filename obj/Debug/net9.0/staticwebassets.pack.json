@@ -5,6 +5,226 @@
       "PackagePath": "staticwebassets\\PecckosChatProgram.lxb74necaw.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Azure.Core.dll",
+      "PackagePath": "staticwebassets\\Azure.Core.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Azure.Identity.dll",
+      "PackagePath": "staticwebassets\\Azure.Identity.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Cosmos.CRTCompat.dll",
+      "PackagePath": "staticwebassets\\Cosmos.CRTCompat.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Azure.Cosmos.Client.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Azure.Cosmos.Client.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Azure.Cosmos.Core.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Azure.Cosmos.Core.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Azure.Cosmos.Direct.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Azure.Cosmos.Direct.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Azure.Cosmos.ServiceInterop.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Azure.Cosmos.ServiceInterop.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Bcl.AsyncInterfaces.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Bcl.AsyncInterfaces.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Bcl.HashCode.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Bcl.HashCode.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Data.SqlClient.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Data.SqlClient.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.EntityFrameworkCore.Abstractions.dll",
+      "PackagePath": "staticwebassets\\Microsoft.EntityFrameworkCore.Abstractions.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.EntityFrameworkCore.Relational.dll",
+      "PackagePath": "staticwebassets\\Microsoft.EntityFrameworkCore.Relational.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.EntityFrameworkCore.SqlServer.dll",
+      "PackagePath": "staticwebassets\\Microsoft.EntityFrameworkCore.SqlServer.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.EntityFrameworkCore.dll",
+      "PackagePath": "staticwebassets\\Microsoft.EntityFrameworkCore.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Extensions.Caching.Abstractions.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Extensions.Caching.Abstractions.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Extensions.Caching.Memory.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Extensions.Caching.Memory.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Extensions.Configuration.Abstractions.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Extensions.Configuration.Abstractions.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Extensions.DependencyInjection.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Extensions.DependencyInjection.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Extensions.Logging.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Extensions.Logging.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Extensions.Options.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Extensions.Options.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Extensions.Primitives.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Extensions.Primitives.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Identity.Client.Extensions.Msal.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Identity.Client.Extensions.Msal.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Identity.Client.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Identity.Client.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.IdentityModel.Abstractions.dll",
+      "PackagePath": "staticwebassets\\Microsoft.IdentityModel.Abstractions.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.IdentityModel.JsonWebTokens.dll",
+      "PackagePath": "staticwebassets\\Microsoft.IdentityModel.JsonWebTokens.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.IdentityModel.Logging.dll",
+      "PackagePath": "staticwebassets\\Microsoft.IdentityModel.Logging.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+      "PackagePath": "staticwebassets\\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.IdentityModel.Protocols.dll",
+      "PackagePath": "staticwebassets\\Microsoft.IdentityModel.Protocols.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.IdentityModel.Tokens.dll",
+      "PackagePath": "staticwebassets\\Microsoft.IdentityModel.Tokens.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.SqlServer.Server.dll",
+      "PackagePath": "staticwebassets\\Microsoft.SqlServer.Server.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Win32.SystemEvents.dll",
+      "PackagePath": "staticwebassets\\Microsoft.Win32.SystemEvents.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Newtonsoft.Json.dll",
+      "PackagePath": "staticwebassets\\Newtonsoft.Json.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\PecckosChatProgram.deps.json",
+      "PackagePath": "staticwebassets\\PecckosChatProgram.deps.json"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\PecckosChatProgram.dll",
+      "PackagePath": "staticwebassets\\PecckosChatProgram.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\PecckosChatProgram.exe",
+      "PackagePath": "staticwebassets\\PecckosChatProgram.exe"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\PecckosChatProgram.pdb",
+      "PackagePath": "staticwebassets\\PecckosChatProgram.pdb"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\PecckosChatProgram.runtimeconfig.json",
+      "PackagePath": "staticwebassets\\PecckosChatProgram.runtimeconfig.json"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\PecckosChatProgram.staticwebassets.endpoints.json",
+      "PackagePath": "staticwebassets\\PecckosChatProgram.staticwebassets.endpoints.json"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\System.ClientModel.dll",
+      "PackagePath": "staticwebassets\\System.ClientModel.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\System.Configuration.ConfigurationManager.dll",
+      "PackagePath": "staticwebassets\\System.Configuration.ConfigurationManager.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\System.Drawing.Common.dll",
+      "PackagePath": "staticwebassets\\System.Drawing.Common.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\System.Formats.Asn1.dll",
+      "PackagePath": "staticwebassets\\System.Formats.Asn1.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\System.IdentityModel.Tokens.Jwt.dll",
+      "PackagePath": "staticwebassets\\System.IdentityModel.Tokens.Jwt.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\System.Memory.Data.dll",
+      "PackagePath": "staticwebassets\\System.Memory.Data.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\System.Net.WebSockets.WebSocketProtocol.dll",
+      "PackagePath": "staticwebassets\\System.Net.WebSockets.WebSocketProtocol.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\System.Runtime.Caching.dll",
+      "PackagePath": "staticwebassets\\System.Runtime.Caching.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\System.Security.Cryptography.ProtectedData.dll",
+      "PackagePath": "staticwebassets\\System.Security.Cryptography.ProtectedData.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\System.Security.Permissions.dll",
+      "PackagePath": "staticwebassets\\System.Security.Permissions.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\System.Text.Json.dll",
+      "PackagePath": "staticwebassets\\System.Text.Json.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\System.Windows.Extensions.dll",
+      "PackagePath": "staticwebassets\\System.Windows.Extensions.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\appsettings.Development.json",
+      "PackagePath": "staticwebassets\\appsettings.Development.json"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
       "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -259,6 +479,854 @@
     {
       "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\msvcp140.dll",
+      "PackagePath": "staticwebassets\\msvcp140.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\runtimes\\unix\\lib\\net6.0\\Microsoft.Data.SqlClient.dll",
+      "PackagePath": "staticwebassets\\runtimes\\unix\\lib\\net6.0\\Microsoft.Data.SqlClient.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\runtimes\\unix\\lib\\net6.0\\System.Drawing.Common.dll",
+      "PackagePath": "staticwebassets\\runtimes\\unix\\lib\\net6.0\\System.Drawing.Common.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\runtimes\\win-arm64\\native\\Microsoft.Data.SqlClient.SNI.dll",
+      "PackagePath": "staticwebassets\\runtimes\\win-arm64\\native\\Microsoft.Data.SqlClient.SNI.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\runtimes\\win-arm\\native\\Microsoft.Data.SqlClient.SNI.dll",
+      "PackagePath": "staticwebassets\\runtimes\\win-arm\\native\\Microsoft.Data.SqlClient.SNI.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\runtimes\\win-x64\\native\\Cosmos.CRTCompat.dll",
+      "PackagePath": "staticwebassets\\runtimes\\win-x64\\native\\Cosmos.CRTCompat.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\runtimes\\win-x64\\native\\Microsoft.Azure.Cosmos.ServiceInterop.dll",
+      "PackagePath": "staticwebassets\\runtimes\\win-x64\\native\\Microsoft.Azure.Cosmos.ServiceInterop.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\runtimes\\win-x64\\native\\Microsoft.Data.SqlClient.SNI.dll",
+      "PackagePath": "staticwebassets\\runtimes\\win-x64\\native\\Microsoft.Data.SqlClient.SNI.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\runtimes\\win-x64\\native\\msvcp140.dll",
+      "PackagePath": "staticwebassets\\runtimes\\win-x64\\native\\msvcp140.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\runtimes\\win-x64\\native\\vcruntime140.dll",
+      "PackagePath": "staticwebassets\\runtimes\\win-x64\\native\\vcruntime140.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\runtimes\\win-x64\\native\\vcruntime140_1.dll",
+      "PackagePath": "staticwebassets\\runtimes\\win-x64\\native\\vcruntime140_1.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\runtimes\\win-x86\\native\\Microsoft.Data.SqlClient.SNI.dll",
+      "PackagePath": "staticwebassets\\runtimes\\win-x86\\native\\Microsoft.Data.SqlClient.SNI.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\runtimes\\win\\lib\\net6.0\\Microsoft.Data.SqlClient.dll",
+      "PackagePath": "staticwebassets\\runtimes\\win\\lib\\net6.0\\Microsoft.Data.SqlClient.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\runtimes\\win\\lib\\net6.0\\Microsoft.Win32.SystemEvents.dll",
+      "PackagePath": "staticwebassets\\runtimes\\win\\lib\\net6.0\\Microsoft.Win32.SystemEvents.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\runtimes\\win\\lib\\net6.0\\System.Drawing.Common.dll",
+      "PackagePath": "staticwebassets\\runtimes\\win\\lib\\net6.0\\System.Drawing.Common.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\runtimes\\win\\lib\\net6.0\\System.Runtime.Caching.dll",
+      "PackagePath": "staticwebassets\\runtimes\\win\\lib\\net6.0\\System.Runtime.Caching.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\runtimes\\win\\lib\\net6.0\\System.Security.Cryptography.ProtectedData.dll",
+      "PackagePath": "staticwebassets\\runtimes\\win\\lib\\net6.0\\System.Security.Cryptography.ProtectedData.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\runtimes\\win\\lib\\net6.0\\System.Windows.Extensions.dll",
+      "PackagePath": "staticwebassets\\runtimes\\win\\lib\\net6.0\\System.Windows.Extensions.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\vcruntime140.dll",
+      "PackagePath": "staticwebassets\\vcruntime140.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\vcruntime140_1.dll",
+      "PackagePath": "staticwebassets\\vcruntime140_1.dll"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\web.config",
+      "PackagePath": "staticwebassets\\web.config"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\PecckosChatProgram.styles.css",
+      "PackagePath": "staticwebassets\\wwwroot\\PecckosChatProgram.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\PecckosChatProgram.styles.css.br",
+      "PackagePath": "staticwebassets\\wwwroot\\PecckosChatProgram.styles.css.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\PecckosChatProgram.styles.css.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\PecckosChatProgram.styles.css.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\wwwroot\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\css\\site.css.br",
+      "PackagePath": "staticwebassets\\wwwroot\\css\\site.css.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\css\\site.css.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\css\\site.css.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\wwwroot\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\favicon.ico.br",
+      "PackagePath": "staticwebassets\\wwwroot\\favicon.ico.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\favicon.ico.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\favicon.ico.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\images\\ChatPecckos.jpg",
+      "PackagePath": "staticwebassets\\wwwroot\\images\\ChatPecckos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\wwwroot\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\js\\site.js.br",
+      "PackagePath": "staticwebassets\\wwwroot\\js\\site.js.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\js\\site.js.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\js\\site.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation\\LICENSE.md.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\LICENSE.md.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation\\LICENSE.md.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\LICENSE.md.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\LICENSE.txt.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\LICENSE.txt.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\LICENSE.txt.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\LICENSE.txt.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.js.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.js.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.js.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.min.js.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.min.js.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.min.js.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.min.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.min.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.min.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.min.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.min.map.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map.br",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map.br"
+    },
+    {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map.gz",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map.gz"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.PecckosChatProgram.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

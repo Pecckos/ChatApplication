@@ -4,14 +4,26 @@ using Microsoft.EntityFrameworkCore;
 using PecckosChatProgram.Data;
 using PecckosChatProgram.Hubs;
 using PecckosChatProgram.Service;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddSignalR();
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Account/Login";
+        options.AccessDeniedPath = "/Account/AccessDenied";
+    });
+
+builder.Services.AddScoped<UserService>();
+
 
 //This code will connect to the database.
  builder.Services.AddDbContext<ChatDbContext>(options =>
@@ -34,12 +46,14 @@ app.MapHub<ChatHub>("/chathub");
  using (var scope = app.Services.CreateScope())
  {
      var context = scope.ServiceProvider.GetRequiredService<ChatDbContext>();
-     DatabaseInixializer.SeedData(context);
+     //DatabaseInixializer.SeedData(context);
 
  }
 app.UseHttpsRedirection();
 app.UseRouting();
 
+app.UseAuthentication();
+app.UseAuthorization();
 
 
 app.UseStaticFiles();
@@ -48,5 +62,4 @@ app.UseStaticFiles();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
 app.Run();
