@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using PecckosChatProgram.Models;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace PecckosChatProgram.Data
 {
@@ -9,6 +10,12 @@ namespace PecckosChatProgram.Data
 
         public DbSet<ChatMessage> Messages { get; set; }
         public DbSet<User> Users { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.ConfigureWarnings(w => w.Ignore(RelationalEventId.PendingModelChangesWarning));
+            
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -24,11 +31,13 @@ namespace PecckosChatProgram.Data
             {
                 Id = 1,
                 UserName = "Admin",
-                PasswordHash = "admin_default_hash" // Lägger till en dummy-hash
+                Email = "admin@admin.com",
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword("admin_hej")
             };
 
             modelBuilder.Entity<User>().HasData(adminUser);
-            var seedTimeStamp = new DateTime(2024, 1, 31, 12, 0, 0); // ÅÅÅÅ-MM-DD HH:MM:SS
+            
+            
 
             // Seedar ett första meddelande
             modelBuilder.Entity<ChatMessage>().HasData(
@@ -37,7 +46,7 @@ namespace PecckosChatProgram.Data
                     id = 1,
                     UserId = 1,
                     Message = "Welcome to Pecckos chat",
-                    TimeStamp = seedTimeStamp
+                    TimeStamp = new DateTime(2024, 1, 31, 12, 0, 0)
                 }
             );
         }

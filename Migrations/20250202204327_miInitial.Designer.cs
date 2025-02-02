@@ -12,7 +12,7 @@ using PecckosChatProgram.Data;
 namespace PecckosChatProgram.Migrations
 {
     [DbContext(typeof(ChatDbContext))]
-    [Migration("20250131225145_miInitial")]
+    [Migration("20250202204327_miInitial")]
     partial class miInitial
     {
         /// <inheritdoc />
@@ -54,7 +54,7 @@ namespace PecckosChatProgram.Migrations
                         {
                             id = 1,
                             Message = "Welcome to Pecckos chat",
-                            TimeStamp = new DateTime(2025, 1, 31, 22, 51, 45, 232, DateTimeKind.Utc).AddTicks(3315),
+                            TimeStamp = new DateTime(2025, 2, 2, 21, 43, 26, 747, DateTimeKind.Local).AddTicks(4325),
                             UserId = 1
                         });
                 });
@@ -66,6 +66,10 @@ namespace PecckosChatProgram.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PasswordHash")
                         .IsRequired()
@@ -83,7 +87,8 @@ namespace PecckosChatProgram.Migrations
                         new
                         {
                             Id = 1,
-                            PasswordHash = "admin_default_hash",
+                            Email = "admin@admin.com",
+                            PasswordHash = "$2a$11$znTIKf1mVe.U4ZtwyOiq1eNojXa.yQHzsqdE8aqWIQusiKp2AxOFW",
                             UserName = "Admin"
                         });
                 });

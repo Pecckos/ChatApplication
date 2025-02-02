@@ -1,6 +1,4 @@
 
-
-
 namespace PecckosChatProgram.Models
 {
     public class ChatMessage

@@ -18,12 +18,13 @@ namespace PecckosChatProgram.Service
             _context = context; 
         }
 
-        public async Task<User> CreateUserAsync(string userName, string password)
+        public async Task<User> CreateUserAsync(string userName, string password, string email)
         {
             var user = new User 
             {
                 UserName = userName,
-                PasswordHash = BCrypt.Net.BCrypt.HashPassword(password)
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword(password),
+                Email = email
             };
 
             _context.Users.Add(user);
@@ -31,11 +32,11 @@ namespace PecckosChatProgram.Service
             return user;
         }
 
-        public async Task<User> AuthenticateAsync(string userName, string password)
+        public async Task<User> AuthenticateAsync(string email, string password)
         {
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.UserName == userName);
-            if (user == null || !BCrypt.Net.BCrypt.Verify(password, user.PasswordHash))
-            return null;
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+            if (user == null || !BCrypt.Net.BCrypt.Verify(password, user.PasswordHash ))
+                return null;
 
             return user;
 

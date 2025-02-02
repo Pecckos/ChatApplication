@@ -3,6 +3,7 @@ using PecckosChatProgram.Controllers;
 using Microsoft.EntityFrameworkCore;
 using PecckosChatProgram.Data;
 using PecckosChatProgram.Hubs;
+using Microsoft.AspNetCore.Identity;
 using PecckosChatProgram.Service;
 using Microsoft.AspNetCore.Authentication.Cookies;
 

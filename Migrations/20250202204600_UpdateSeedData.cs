@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace PecckosChatProgram.Migrations
 {
     /// <inheritdoc />
-    public partial class FixSeedData : Migration
+    public partial class UpdateSeedData : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -17,6 +17,13 @@ namespace PecckosChatProgram.Migrations
                 keyValue: 1,
                 column: "TimeStamp",
                 value: new DateTime(2024, 1, 31, 12, 0, 0, 0, DateTimeKind.Unspecified));
+
+            migrationBuilder.UpdateData(
+                table: "Users",
+                keyColumn: "Id",
+                keyValue: 1,
+                column: "PasswordHash",
+                value: "$2a$11$q2cYg.eqK.4hzoEsGbXt1.rKOVjNiiJZTDWD0oNs4hsZ0QoghL7oO");
         }
 
         /// <inheritdoc />
@@ -27,7 +34,14 @@ namespace PecckosChatProgram.Migrations
                 keyColumn: "id",
                 keyValue: 1,
                 column: "TimeStamp",
-                value: new DateTime(2025, 1, 31, 22, 51, 45, 232, DateTimeKind.Utc).AddTicks(3315));
+                value: new DateTime(2025, 2, 2, 21, 43, 26, 747, DateTimeKind.Local).AddTicks(4325));
+
+            migrationBuilder.UpdateData(
+                table: "Users",
+                keyColumn: "Id",
+                keyValue: 1,
+                column: "PasswordHash",
+                value: "$2a$11$znTIKf1mVe.U4ZtwyOiq1eNojXa.yQHzsqdE8aqWIQusiKp2AxOFW");
         }
     }
 }

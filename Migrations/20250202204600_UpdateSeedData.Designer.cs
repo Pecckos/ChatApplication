@@ -12,8 +12,8 @@ using PecckosChatProgram.Data;
 namespace PecckosChatProgram.Migrations
 {
     [DbContext(typeof(ChatDbContext))]
-    [Migration("20250131225359_FixSeedData")]
-    partial class FixSeedData
+    [Migration("20250202204600_UpdateSeedData")]
+    partial class UpdateSeedData
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -67,6 +67,10 @@ namespace PecckosChatProgram.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("PasswordHash")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -83,7 +87,8 @@ namespace PecckosChatProgram.Migrations
                         new
                         {
                             Id = 1,
-                            PasswordHash = "admin_default_hash",
+                            Email = "admin@admin.com",
+                            PasswordHash = "$2a$11$q2cYg.eqK.4hzoEsGbXt1.rKOVjNiiJZTDWD0oNs4hsZ0QoghL7oO",
                             UserName = "Admin"
                         });
                 });

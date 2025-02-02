@@ -1228,7 +1228,7 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PecckosChatProgram.lxb74necaw.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1274"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 22:46:18 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1274"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco=\u0022"},{"Name":"Last-Modified","Value":"Sun, 02 Feb 2025 21:39:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PecckosChatProgram/PecckosChatProgram.deps.2lgcb0i0e2.json">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PecckosChatProgram.deps.json'))</AssetFile>
@@ -1264,7 +1264,7 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PecckosChatProgram.lxb74necaw.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lxb74necaw"},{"Name":"integrity","Value":"sha256-KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco="},{"Name":"label","Value":"_content/PecckosChatProgram/PecckosChatProgram.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1274"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 22:46:18 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1274"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco=\u0022"},{"Name":"Last-Modified","Value":"Sun, 02 Feb 2025 21:39:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PecckosChatProgram/PecckosChatProgram.olj303f90g.pdb">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PecckosChatProgram.pdb'))</AssetFile>

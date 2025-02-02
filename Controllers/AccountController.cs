@@ -1,12 +1,10 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using PecckosChatProgram.Data;
 using PecckosChatProgram.Service;
+using PecckosChatProgram.Models;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
-using PecckosChatProgram.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authorization;
 
 
 namespace PecckosChatProgram.Controllers
@@ -28,32 +26,50 @@ public class AccountController : Controller
         return View();
     }
 
-
-    [HttpPost]
-    public async Task<IActionResult> Register(string userName, string password)
+    [HttpGet]
+    public IActionResult Register()
     {
-        var user = await _userService.CreateUserAsync(userName, password);
-        if (user != null)
-        return RedirectToAction("Login");
-
-        ModelState.AddModelError("", "Registration failed");
         return View();
     }
 
+
+    [HttpPost]
+    public async Task<IActionResult> Register(User model)
+    {   //Check if the modelstate is valid. all the field are filled and pass validation.
+        if (ModelState.IsValid)
+        {   
+            //Attemt to create a new user with the provided email och password
+            var user = await _userService.CreateUserAsync(model.UserName, model.Email, model.Password);
+            if (user != null)
+            {   
+                //Login the user if succsess automaticly then return to chat index page.
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, 
+                    new ClaimsPrincipal(new ClaimsIdentity(
+                    new[] { new Claim(ClaimTypes.Name, user.Email) }, 
+                    CookieAuthenticationDefaults.AuthenticationScheme)));
+                return RedirectToAction("Index", "Chat");
+            }
+            //Or error message if failed
+            ModelState.AddModelError("", "Register failed");
+        }
+
+        //If modelstate is invalid or registration failed, return to the page with the model.
+        return View(model);
+    }
+
    [HttpPost]
-    public async Task<IActionResult> Login(string userName, string password)
+    public async Task<IActionResult> Login(string email, string password)
     {
         try
         {
-            var user = await _userService.AuthenticateAsync(userName, password);
+            var user = await _userService.AuthenticateAsync(email, password);
             if (user != null)
             {
-                var claims = new List<Claim> { new Claim(ClaimTypes.Name, user.UserName) };
-                var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-                var principal = new ClaimsPrincipal(identity);
-
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
-                return RedirectToAction("Index", "Home");
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, 
+                    new ClaimsPrincipal(new ClaimsIdentity(
+                    new[] { new Claim(ClaimTypes.Name, user.Email) }, 
+                    CookieAuthenticationDefaults.AuthenticationScheme)));
+                return RedirectToAction("Index", "Chat");
             }
 
             ModelState.AddModelError("", "Ogiltigt användarnamn eller lösenord");
