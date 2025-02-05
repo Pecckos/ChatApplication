@@ -41,7 +41,8 @@ if (!app.Environment.IsDevelopment())
 }
 
 //SignalR-routing
-app.MapHub<ChatHub>("/chathub");
+
+app.MapHub<ChatHub>("/ChatHub");
 
 //This code will populate the database when it´s starts. 
  using (var scope = app.Services.CreateScope())

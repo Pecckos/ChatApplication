@@ -47,6 +47,12 @@ button.accept-policy {
   line-height: 60px;
 }
 
+.message-bubble {
+  display: inline-block;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
 @media (min-width: 992px) {
   .navbar {
     max-width: 960px;

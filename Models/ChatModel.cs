@@ -5,7 +5,8 @@ namespace PecckosChatProgram.Models
     {
         public int id { get; set; }
         public User User { get; set; } //Navigation property
-        public int? UserId { get; set; }
+        public int UserId { get; set; }
+       
         public string Message { get; set; }
         public DateTime TimeStamp { get; set; }
 

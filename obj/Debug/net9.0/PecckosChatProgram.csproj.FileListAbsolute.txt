@@ -174,6 +174,7 @@ C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compress
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\rjmeqw8g31-9gwgf3hhq7.gz
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\uqjp5owyaj-q9jim9rvgp.gz
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\kgn1lwsos0-usp63kjqde.gz
+C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\isg93wko2u-lxb74necaw.gz
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\257zlx1cvx-b9sayid5wm.gz
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\2n02aghrql-61n19gt1b8.gz
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\76yb4ftug9-xtxxf3hu2r.gz
@@ -305,8 +306,8 @@ C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compress
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\dj65t4ff20-5zdbbae7gl.gz
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\5grd7c4hg2-cdoe6o59zq.gz
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\s8kfcvzndc-4zvswsexco.gz
-C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\4anez4rhf7-lxb74necaw.gz
-C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\1r8pfrgci6-lxb74necaw.gz
+C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\4anez4rhf7-s0s7l8qzkt.gz
+C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\1r8pfrgci6-s0s7l8qzkt.gz
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\staticwebassets.build.endpoints.json

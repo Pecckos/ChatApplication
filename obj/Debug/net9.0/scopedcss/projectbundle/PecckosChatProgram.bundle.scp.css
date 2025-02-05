@@ -48,6 +48,12 @@ button.accept-policy[b-rb8oh9d9hd] {
   line-height: 60px;
 }
 
+.message-bubble[b-rb8oh9d9hd] {
+  display: inline-block;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
 @media (min-width: 992px) {
   .navbar[b-rb8oh9d9hd] {
     max-width: 960px;

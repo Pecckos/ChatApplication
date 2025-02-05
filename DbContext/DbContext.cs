@@ -25,6 +25,8 @@ namespace PecckosChatProgram.Data
                 .WithMany(u => u.Messages)
                 .HasForeignKey(m => m.UserId)
                 .IsRequired(false);
+                
+
 
             // Seedar en admin-användare
             var adminUser = new User
@@ -46,7 +48,7 @@ namespace PecckosChatProgram.Data
                     id = 1,
                     UserId = 1,
                     Message = "Welcome to Pecckos chat",
-                    TimeStamp = new DateTime(2024, 1, 31, 12, 0, 0)
+                    TimeStamp = new DateTime()
                 }
             );
         }

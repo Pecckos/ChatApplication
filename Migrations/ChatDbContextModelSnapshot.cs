@@ -40,6 +40,10 @@ namespace PecckosChatProgram.Migrations
                     b.Property<int?>("UserId")
                         .HasColumnType("int");
 
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("id");
 
                     b.HasIndex("UserId");
@@ -51,8 +55,9 @@ namespace PecckosChatProgram.Migrations
                         {
                             id = 1,
                             Message = "Welcome to Pecckos chat",
-                            TimeStamp = new DateTime(2024, 1, 31, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            UserId = 1
+                            TimeStamp = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            UserId = 1,
+                            UserName = "Pecckos"
                         });
                 });
 
@@ -85,7 +90,7 @@ namespace PecckosChatProgram.Migrations
                         {
                             Id = 1,
                             Email = "admin@admin.com",
-                            PasswordHash = "$2a$11$q2cYg.eqK.4hzoEsGbXt1.rKOVjNiiJZTDWD0oNs4hsZ0QoghL7oO",
+                            PasswordHash = "$2a$11$1Vz6xplb2wOQQ1w6cOXIY.xr7x2P3xQsBh0VxHykVHeKvYCTrSJey",
                             UserName = "Admin"
                         });
                 });

@@ -11066,167 +11066,6 @@
       ]
     },
     {
-      "Route": "PecckosChatProgram.lxb74necaw.styles.css",
-      "AssetFile": "PecckosChatProgram.styles.css.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001675041876"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "596"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Evs90cVGEWfhW8aJRhibPIgSIFO7zVtTFlZqxbBAeIU=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Feb 2025 21:39:26 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lxb74necaw"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco="
-        },
-        {
-          "Name": "label",
-          "Value": "PecckosChatProgram.styles.css"
-        }
-      ]
-    },
-    {
-      "Route": "PecckosChatProgram.lxb74necaw.styles.css",
-      "AssetFile": "PecckosChatProgram.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1274"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Feb 2025 21:39:26 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lxb74necaw"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco="
-        },
-        {
-          "Name": "label",
-          "Value": "PecckosChatProgram.styles.css"
-        }
-      ]
-    },
-    {
-      "Route": "PecckosChatProgram.lxb74necaw.styles.css.gz",
-      "AssetFile": "PecckosChatProgram.styles.css.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "596"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Evs90cVGEWfhW8aJRhibPIgSIFO7zVtTFlZqxbBAeIU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Feb 2025 21:39:26 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lxb74necaw"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Evs90cVGEWfhW8aJRhibPIgSIFO7zVtTFlZqxbBAeIU="
-        },
-        {
-          "Name": "label",
-          "Value": "PecckosChatProgram.styles.css.gz"
-        }
-      ]
-    },
-    {
       "Route": "PecckosChatProgram.olj303f90g.pdb",
       "AssetFile": "PecckosChatProgram.pdb.gz",
       "Selectors": [
@@ -11823,6 +11662,167 @@
       ]
     },
     {
+      "Route": "PecckosChatProgram.s0s7l8qzkt.styles.css",
+      "AssetFile": "PecckosChatProgram.styles.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001569858713"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 09:31:26 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s0s7l8qzkt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk="
+        },
+        {
+          "Name": "label",
+          "Value": "PecckosChatProgram.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "PecckosChatProgram.s0s7l8qzkt.styles.css",
+      "AssetFile": "PecckosChatProgram.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1383"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 09:31:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s0s7l8qzkt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk="
+        },
+        {
+          "Name": "label",
+          "Value": "PecckosChatProgram.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "PecckosChatProgram.s0s7l8qzkt.styles.css.gz",
+      "AssetFile": "PecckosChatProgram.styles.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 09:31:26 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s0s7l8qzkt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg="
+        },
+        {
+          "Name": "label",
+          "Value": "PecckosChatProgram.styles.css.gz"
+        }
+      ]
+    },
+    {
       "Route": "PecckosChatProgram.staticwebassets.endpoints.json",
       "AssetFile": "PecckosChatProgram.staticwebassets.endpoints.json.gz",
       "Selectors": [
@@ -12127,7 +12127,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001675041876"
+          "Quality": "0.001569858713"
         }
       ],
       "ResponseHeaders": [
@@ -12145,7 +12145,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "596"
+          "Value": "636"
         },
         {
           "Name": "Content-Type",
@@ -12153,15 +12153,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Evs90cVGEWfhW8aJRhibPIgSIFO7zVtTFlZqxbBAeIU=\""
+          "Value": "\"TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco=\""
+          "Value": "W/\"ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Feb 2025 21:39:26 GMT"
+          "Value": "Wed, 05 Feb 2025 09:31:26 GMT"
         },
         {
           "Name": "Vary",
@@ -12171,7 +12171,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco="
+          "Value": "sha256-ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk="
         }
       ]
     },
@@ -12190,7 +12190,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1274"
+          "Value": "1383"
         },
         {
           "Name": "Content-Type",
@@ -12198,17 +12198,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco=\""
+          "Value": "\"ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Feb 2025 21:39:26 GMT"
+          "Value": "Wed, 05 Feb 2025 09:31:26 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco="
+          "Value": "sha256-ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk="
         }
       ]
     },
@@ -12231,7 +12231,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "596"
+          "Value": "636"
         },
         {
           "Name": "Content-Type",
@@ -12239,11 +12239,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Evs90cVGEWfhW8aJRhibPIgSIFO7zVtTFlZqxbBAeIU=\""
+          "Value": "\"TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Feb 2025 21:39:26 GMT"
+          "Value": "Wed, 05 Feb 2025 09:31:26 GMT"
         },
         {
           "Name": "Vary",
@@ -12253,7 +12253,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Evs90cVGEWfhW8aJRhibPIgSIFO7zVtTFlZqxbBAeIU="
+          "Value": "sha256-TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg="
         }
       ]
     },
@@ -16471,6 +16471,304 @@
         {
           "Name": "label",
           "Value": "appsettings.json.gz"
+        }
+      ]
+    },
+    {
+      "Route": "css/PecckosChatProgram.styles.css",
+      "AssetFile": "css/PecckosChatProgram.styles.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001675041876"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Evs90cVGEWfhW8aJRhibPIgSIFO7zVtTFlZqxbBAeIU=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 20:08:16 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco="
+        }
+      ]
+    },
+    {
+      "Route": "css/PecckosChatProgram.styles.css",
+      "AssetFile": "css/PecckosChatProgram.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 20:08:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco="
+        }
+      ]
+    },
+    {
+      "Route": "css/PecckosChatProgram.styles.css.gz",
+      "AssetFile": "css/PecckosChatProgram.styles.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Evs90cVGEWfhW8aJRhibPIgSIFO7zVtTFlZqxbBAeIU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 20:08:16 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Evs90cVGEWfhW8aJRhibPIgSIFO7zVtTFlZqxbBAeIU="
+        }
+      ]
+    },
+    {
+      "Route": "css/PecckosChatProgram.styles.lxb74necaw.css",
+      "AssetFile": "css/PecckosChatProgram.styles.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001675041876"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Evs90cVGEWfhW8aJRhibPIgSIFO7zVtTFlZqxbBAeIU=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 20:08:16 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lxb74necaw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco="
+        },
+        {
+          "Name": "label",
+          "Value": "css/PecckosChatProgram.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/PecckosChatProgram.styles.lxb74necaw.css",
+      "AssetFile": "css/PecckosChatProgram.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 20:08:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lxb74necaw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KVjYuRpNWEE2t9ZobTccCZP7N2/zwywYMeXFde7mTco="
+        },
+        {
+          "Name": "label",
+          "Value": "css/PecckosChatProgram.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/PecckosChatProgram.styles.lxb74necaw.css.gz",
+      "AssetFile": "css/PecckosChatProgram.styles.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Evs90cVGEWfhW8aJRhibPIgSIFO7zVtTFlZqxbBAeIU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 20:08:16 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lxb74necaw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Evs90cVGEWfhW8aJRhibPIgSIFO7zVtTFlZqxbBAeIU="
+        },
+        {
+          "Name": "label",
+          "Value": "css/PecckosChatProgram.styles.css.gz"
         }
       ]
     },

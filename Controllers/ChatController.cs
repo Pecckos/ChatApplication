@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using PecckosChatProgram.Data;
 using PecckosChatProgram.Models;
 using System.Security.Claims;
+using PecckosChatProgram.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,10 +14,12 @@ namespace PecckosChatProgram.Controllers
 public class ChatController : Controller 
 {
      private readonly ChatDbContext _context;
+     private readonly UserService _userService;
 
-     public ChatController(ChatDbContext context)
+     public ChatController(ChatDbContext context, UserService userService)
      {
          _context = context; // Inject the databaseconnection
+         _userService = userService; // Inject the service
      }
 
     // //Show the chat
@@ -33,26 +36,43 @@ public class ChatController : Controller
 
     // //Send a new message
      [HttpPost]
-     public IActionResult SendMessage(ChatMessage messages)
+     public async Task<IActionResult> SendMessage(ChatMessage messages)
      {
-         if(ModelState.IsValid)
-         {
-             messages.TimeStamp = DateTime.Now; //Add timestamp
-             if (int.TryParse(User.FindFirstValue(ClaimTypes.NameIdentifier), out int userId))
-            {
-                messages.UserId = userId; // Om konvertering lyckades, sätt UserId
-            }
-            else
-            {
-                messages.UserId = null; // Om konvertering misslyckades, sätt UserId till null
-            } //Set the userid to the current user ID
-             _context.Messages.Add(messages);
-             _context.SaveChanges(); //Save to the database
+        if (!ModelState.IsValid)
+        {
+            return View("Index", await _context.Messages.Include(m => m.User).OrderBy(m => m.TimeStamp).ToListAsync());
+        }
 
-             return RedirectToAction("Index");
-         }
+        var userEmail = User.FindFirstValue(ClaimTypes.Email);
+        var userName = User.FindFirstValue(ClaimTypes.Name);
+        Console.WriteLine("Email",ClaimTypes.Email);
+        Console.WriteLine("Name",ClaimTypes.Name);
 
-         return View("Index", _context.Messages.ToList()); //Show errormessage
+        if (userEmail == null || userName == null )
+        {
+            return Unauthorized();
+        }
+
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == userEmail);
+
+        if(user==null)
+        {
+            return Unauthorized();
+        }
+
+        messages.User = user;
+        messages.UserId = user.Id;
+        messages.TimeStamp = DateTime.Now;
+
+        _context.Messages.Add(messages);
+        await _context.SaveChangesAsync();
+
+        
+
+        return RedirectToAction("index");
+
+        
+
      }
     
         // // Statisk lista för att lagra meddelanden i minnet

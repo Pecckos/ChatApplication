@@ -34,7 +34,7 @@ public class AccountController : Controller
 
 
     [HttpPost]
-    public async Task<IActionResult> Register(User model)
+    public async Task<IActionResult> Register(RegistrationViewModel model)
     {   //Check if the modelstate is valid. all the field are filled and pass validation.
         if (ModelState.IsValid)
         {   
@@ -45,7 +45,10 @@ public class AccountController : Controller
                 //Login the user if succsess automaticly then return to chat index page.
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, 
                     new ClaimsPrincipal(new ClaimsIdentity(
-                    new[] { new Claim(ClaimTypes.Name, user.Email) }, 
+                    new[] { new Claim(ClaimTypes.Name, user.UserName),
+                    new Claim(ClaimTypes.Email, user.Email),
+                    },
+
                     CookieAuthenticationDefaults.AuthenticationScheme)));
                 return RedirectToAction("Index", "Chat");
             }
@@ -58,16 +61,17 @@ public class AccountController : Controller
     }
 
    [HttpPost]
-    public async Task<IActionResult> Login(string email, string password)
+    public async Task<IActionResult> Login(string userName, string email, string password)
     {
         try
         {
-            var user = await _userService.AuthenticateAsync(email, password);
+            var user = await _userService.AuthenticateAsync(userName, email, password);
             if (user != null)
             {
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, 
                     new ClaimsPrincipal(new ClaimsIdentity(
-                    new[] { new Claim(ClaimTypes.Name, user.Email) }, 
+                    new[] { new Claim(ClaimTypes.Name, user.UserName),
+                    new Claim(ClaimTypes.Email, user.Email), },
                     CookieAuthenticationDefaults.AuthenticationScheme)));
                 return RedirectToAction("Index", "Chat");
             }
@@ -85,7 +89,7 @@ public class AccountController : Controller
     public async Task<IActionResult> Logout()
     {
         await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-        return RedirectToAction("Login");
+        return RedirectToAction("Index", "Home");
     }
 
 

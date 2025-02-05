@@ -1,3 +1,5 @@
+Databaskommandon! 
+
 Drop any database
 Remove any migration
 Make a full new migration
@@ -9,3 +11,15 @@ dotnet ef database drop
 Remove-Item -Recurse -Force Migrations
 dotnet ef migrations add miInitial
 dotnet ef database update
+
+
+
+Pusha till github! 
+
+
+//bestäm vad du ska pusha för kod, punkt betyder allt. 
+git add . 
+//skapa en commit
+git commit -m "Beskrivning av ändringen" 
+//pusha till din branch, är du osäker vad den heter kolla med hjälp av "git branch"
+git push origin din-branch
