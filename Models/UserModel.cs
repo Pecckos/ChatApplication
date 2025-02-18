@@ -8,7 +8,7 @@ namespace PecckosChatProgram.Models
         public int Id { get; set; }
         [Required]
         public string UserName { get; set; }
-        public List<ChatMessage> Messages { get; set; } = new(); // NAvigation property for related messages
+        public ICollection<ChatMessage> Messages { get; set; } = new List<ChatMessage>(); // NAvigation property for related messages
 
         [Required] //Stored hashpassword for security reasons in the database. it will not be plain text. 
         public string PasswordHash { get; set; }

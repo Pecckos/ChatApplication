@@ -1,4 +1,4 @@
-@{
+ @{
     ViewData["Title"] = "Chat";
 }
 @model IEnumerable<PecckosChatProgram.Models.ChatMessage>
@@ -42,7 +42,7 @@
                                     <strong>@message.User.UserName</strong>
                                     <small class="text-muted ms-2">@message.TimeStamp.ToString("HH:mm")</small>
                                 </div>
-                                <p class="p-2 rounded mb-0 message-bubble" style="background-color: @userColor; color: white;">@message.Message</p>
+                                <p class="p-2 rounded mb-0 message-bubble" style="background-color: @userColor; color: white;">@message.MessagesChat</p>
                             </div>
                         </div>
                     </div>
@@ -53,9 +53,9 @@
                 </div>
 
                 <div class="card-footer bg-light">
-                    <form id="chatform" asp-controller="Chat" asp-action="SendMessage">
+                    <form id="chatform" method="post">
                         <div class="input-group">
-                            <input id="message" type="text" name="Message" class="form-control" placeholder="Skriv ett meddelande..."/>
+                            <input id="MessagesChat" type="text" name="MessagesChat" class="form-control" placeholder="Skriv ett meddelande..."/>
                             <button class="btn btn-primary" type="submit">
                                 <i class="bi bi-send"></i> Skicka
                             </button>
@@ -100,79 +100,98 @@
     });
 
     // Endast en definition av "ReceiveMessage" för att undvika problem
-    connection.on("ReceiveMessage", function (user, message, timestamp) {
-        const messagelist = document.getElementById("chatMessages");
-        
-        function stringToColor(str) {
-            let hash = 0;
-            for (let i = 0; i < str.length; i++) {
-                hash = str.charCodeAt(i) + ((hash << 5) - hash);
-            }
-            const r = (hash & 0x7F) + 128;
-            const g = ((hash >> 8) & 0x7F) + 128;
-            const b = ((hash >> 16) & 0x7F) + 128;
-            return `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+connection.on("ReceiveMessage", function (user, message, timestamp) {
+    const messagelist = document.getElementById("chatMessages");
+    
+    function stringToColor(str) {
+        let hash = 0;
+        for (let i = 0; i < str.length; i++) {
+            hash = str.charCodeAt(i) + ((hash << 5) - hash);
         }
-
-        function stringToLighterColor(str) {
-            let hash = 0;
-            for (let i = 0; i < str.length; i++) {
-                hash = str.charCodeAt(i) + ((hash << 5) - hash);
-            }
-            const r = (hash & 0x7F) + 128;
-            const g = ((hash >> 8) & 0x7F) + 128;
-            const b = ((hash >> 16) & 0x7F) + 128;
-            return `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+        const r = (hash & 0x7F) + 128;
+        const g = ((hash >> 8) & 0x7F) + 128;
+        const b = ((hash >> 16) & 0x7F) + 128;
+        return `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+    }
+    function stringToLighterColor(str) {
+        let hash = 0;
+        for (let i = 0; i < str.length; i++) {
+            hash = str.charCodeAt(i) + ((hash << 5) - hash);
         }
+        const r = (hash & 0x7F) + 128;
+        const g = ((hash >> 8) & 0x7F) + 128;
+        const b = ((hash >> 16) & 0x7F) + 128;
+        return `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+    }
 
-        const userColor = stringToColor(user);
-        const lightColor = stringToLighterColor(user);
+    const userColor = stringToColor(user);
+    const lightColor = stringToLighterColor(user);
 
-        const newMessage = document.createElement("div");
-        newMessage.className = "message mb-3 animate__animated animate__fadeIn";
-        newMessage.innerHTML = `
-            <div class="d-flex">
-                <div class="avatar me-3 flex-shrink-0">
-                    <img src="https://ui-avatars.com/api/?name=${user}&background=${lightColor.substring(1)}" 
-                        class="rounded-circle" 
-                        width="40" 
-                        height="40" 
-                        alt="${user}">
-                </div>
-                <div class="message-content flex-grow-1">
-                    <div class="d-flex justify-content-between align-items-baseline">
-                        <strong>${user}</strong>
-                        <small class="text-muted ms-2">${new Date(timestamp).toLocaleTimeString()}</small>
-                    </div>
-                    <p style="background-color: ${lightColor}; color: black;" class="p-2 rounded mb-0 message-bubble">${message}</p>
-                </div>
+    const newMessage = document.createElement("div");
+    newMessage.className = "message mb-3 animate__animated animate__fadeIn";
+    newMessage.innerHTML = `
+        <div class="d-flex">
+            <div class="avatar me-3 flex-shrink-0">
+                <img src="https://ui-avatars.com/api/?name=${user}&background=${lightColor.substring(1)}" 
+                    class="rounded-circle" 
+                    width="40" 
+                    height="40" 
+                    alt="${user}">
             </div>
-        `;
-        messagelist.appendChild(newMessage);
-        messagelist.scrollTop = messagelist.scrollHeight;
-    });
+            <div class="message-content flex-grow-1">
+                <div class="d-flex justify-content-between align-items-baseline">
+                    <strong>${user}</strong>
+                    <small class="text-muted ms-2">${new Date(timestamp).toLocaleTimeString('sv-SE', { hour: '2-digit', minute: '2-digit', hour12: false })}</small>
+                </div>
+                <p style="background-color: ${lightColor}; color: black;" class="p-2 rounded mb-0 message-bubble">${message}</p>
+            </div>
+        </div>
+    `;
+    messagelist.appendChild(newMessage);
+    messagelist.scrollTop = messagelist.scrollHeight;
+});
 
     // Event listener för formulärsändning
     document.getElementById("chatform").addEventListener("submit", function (event) {
-        event.preventDefault();
+    event.preventDefault();
 
-        const message = document.getElementById("message").value;
-        const userName = '@User.Identity?.Name';
+    const message = document.getElementById("MessagesChat").value;
+    const userName = '@User.Identity?.Name';
 
-        console.log("Formulär skickat!");
-        console.log("Användarnamn:", userName);
-        console.log("Meddelande:", message);
+    console.log("Formulär skickat!");
+    console.log("Användarnamn:", userName);
+    console.log("Meddelande:", message);
 
-        if (!message.trim()) return; // Skicka inte tomma meddelanden
-
-        connection.send("SendMessage", userName, message)
-            .then(() => console.log("Meddelandet skickades till servern!"))
-            .catch(function (err) {
-                console.log("Fel vid sändning:", userName, message);
-                console.error(err.toString());
-            });
-
-        document.getElementById("message").value = "";
+    // Skicka meddelandet till SignalR
+    connection.send("SendMessage", userName, message)
+    .then(() => {
+        console.log("Meddelandet skickades till SignalR!");
+    })
+    .catch(function (err) {
+        console.log("Fel vid sändning till SignalR:", err.toString());
     });
+
+    // Skicka meddelandet till kontrollern för att spara i databasen
+    fetch('/Chat/SendMessage', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ MessagesChat: message })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            console.log("Meddelandet sparades i databasen!");
+        } else {
+            console.error("Misslyckades att spara meddelandet i databasen");
+        }
+    })
+    .catch(err => {
+        console.log("Fel vid sändning till servern:", err);
+    });
+
+    document.getElementById("MessagesChat").value = "";
+});
 </script>
 }

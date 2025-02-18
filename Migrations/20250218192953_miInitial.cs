@@ -27,21 +27,20 @@ namespace PecckosChatProgram.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Messages",
+                name: "MessagesChat",
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    UserId = table.Column<int>(type: "int", nullable: true),
-                    UserName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Message = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    UserId = table.Column<int>(type: "int", nullable: false),
+                    MessagesChat = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     TimeStamp = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Messages", x => x.id);
+                    table.PrimaryKey("PK_MessagesChat", x => x.id);
                     table.ForeignKey(
-                        name: "FK_Messages_Users_UserId",
+                        name: "FK_MessagesChat_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id");
@@ -50,16 +49,16 @@ namespace PecckosChatProgram.Migrations
             migrationBuilder.InsertData(
                 table: "Users",
                 columns: new[] { "Id", "Email", "PasswordHash", "UserName" },
-                values: new object[] { 1, "admin@admin.com", "$2a$11$1Vz6xplb2wOQQ1w6cOXIY.xr7x2P3xQsBh0VxHykVHeKvYCTrSJey", "Admin" });
+                values: new object[] { 1, "admin@admin.com", "$2a$11$P9sic9GVoH73fpnpl0YZlu5G2FtFBTLO1S6wn6rltLD60g8teC6wS", "Admin" });
 
             migrationBuilder.InsertData(
-                table: "Messages",
-                columns: new[] { "id", "Message", "TimeStamp", "UserId", "UserName" },
-                values: new object[] { 1, "Welcome to Pecckos chat", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 1, "Pecckos" });
+                table: "MessagesChat",
+                columns: new[] { "id", "MessagesChat", "TimeStamp", "UserId" },
+                values: new object[] { 1, "Welcome to Pecckos chat", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 1 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Messages_UserId",
-                table: "Messages",
+                name: "IX_MessagesChat_UserId",
+                table: "MessagesChat",
                 column: "UserId");
         }
 
@@ -67,7 +66,7 @@ namespace PecckosChatProgram.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Messages");
+                name: "MessagesChat");
 
             migrationBuilder.DropTable(
                 name: "Users");

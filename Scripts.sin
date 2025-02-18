@@ -23,3 +23,6 @@ git add .
 git commit -m "Beskrivning av ändringen" 
 //pusha till din branch, är du osäker vad den heter kolla med hjälp av "git branch"
 git push origin din-branch
+
+
+dotnet run --urls "http://localhost:5000"

@@ -8,7 +8,7 @@ namespace PecckosChatProgram.Data
     {
         public ChatDbContext(DbContextOptions<ChatDbContext> options) : base(options) { }
 
-        public DbSet<ChatMessage> Messages { get; set; }
+        public DbSet<ChatMessage> MessagesChat { get; set; }
         public DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -47,7 +47,7 @@ namespace PecckosChatProgram.Data
                 {
                     id = 1,
                     UserId = 1,
-                    Message = "Welcome to Pecckos chat",
+                    MessagesChat = "Welcome to Pecckos chat",
                     TimeStamp = new DateTime()
                 }
             );

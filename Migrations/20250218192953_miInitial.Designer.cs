@@ -12,7 +12,7 @@ using PecckosChatProgram.Data;
 namespace PecckosChatProgram.Migrations
 {
     [DbContext(typeof(ChatDbContext))]
-    [Migration("20250204203148_miInitial")]
+    [Migration("20250218192953_miInitial")]
     partial class miInitial
     {
         /// <inheritdoc />
@@ -33,34 +33,29 @@ namespace PecckosChatProgram.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
-                    b.Property<string>("Message")
+                    b.Property<string>("MessagesChat")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("TimeStamp")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("UserId")
+                    b.Property<int>("UserId")
                         .HasColumnType("int");
-
-                    b.Property<string>("UserName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("id");
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Messages");
+                    b.ToTable("MessagesChat");
 
                     b.HasData(
                         new
                         {
                             id = 1,
-                            Message = "Welcome to Pecckos chat",
+                            MessagesChat = "Welcome to Pecckos chat",
                             TimeStamp = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UserId = 1,
-                            UserName = "Pecckos"
+                            UserId = 1
                         });
                 });
 
@@ -93,7 +88,7 @@ namespace PecckosChatProgram.Migrations
                         {
                             Id = 1,
                             Email = "admin@admin.com",
-                            PasswordHash = "$2a$11$1Vz6xplb2wOQQ1w6cOXIY.xr7x2P3xQsBh0VxHykVHeKvYCTrSJey",
+                            PasswordHash = "$2a$11$P9sic9GVoH73fpnpl0YZlu5G2FtFBTLO1S6wn6rltLD60g8teC6wS",
                             UserName = "Admin"
                         });
                 });

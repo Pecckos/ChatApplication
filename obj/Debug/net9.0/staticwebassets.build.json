@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QqYqsNCP+Sd+p3gHkygbnuC3q4wRvYaJ+meCgnAvnNY=",
+  "Hash": "rywOcDAh4mHxP+Fep9zHRz5fJLMiklr4zUAAGUrloJI=",
   "Source": "PecckosChatProgram",
   "BasePath": "_content/PecckosChatProgram",
   "Mode": "Default",
@@ -122,12 +122,12 @@
       "OriginalItemSpec": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\1r8pfrgci6-s0s7l8qzkt.gz",
+      "Identity": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\1r8pfrgci6-nqfp5zjilh.gz",
       "SourceId": "PecckosChatProgram",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/PecckosChatProgram",
-      "RelativePath": "PecckosChatProgram#[.{fingerprint=s0s7l8qzkt}]!.bundle.scp.css.gz",
+      "RelativePath": "PecckosChatProgram#[.{fingerprint=nqfp5zjilh}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -136,8 +136,8 @@
       "RelatedAsset": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PecckosChatProgram.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "nn60txl0jj",
-      "Integrity": "TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg=",
+      "Fingerprint": "cny7de90bt",
+      "Integrity": "2J8BmB2tczSvh1t2yy/Qid6T2QL2eR/d2CAFttS3EH0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PecckosChatProgram.bundle.scp.css"
@@ -353,12 +353,12 @@
       "OriginalItemSpec": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\Microsoft.Extensions.Caching.Abstractions.dll"
     },
     {
-      "Identity": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\4anez4rhf7-s0s7l8qzkt.gz",
+      "Identity": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\4anez4rhf7-nqfp5zjilh.gz",
       "SourceId": "PecckosChatProgram",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/PecckosChatProgram",
-      "RelativePath": "PecckosChatProgram#[.{fingerprint=s0s7l8qzkt}]?.styles.css.gz",
+      "RelativePath": "PecckosChatProgram#[.{fingerprint=nqfp5zjilh}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -367,8 +367,8 @@
       "RelatedAsset": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\scopedcss\\bundle\\PecckosChatProgram.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "nn60txl0jj",
-      "Integrity": "TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg=",
+      "Fingerprint": "cny7de90bt",
+      "Integrity": "2J8BmB2tczSvh1t2yy/Qid6T2QL2eR/d2CAFttS3EH0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\scopedcss\\bundle\\PecckosChatProgram.styles.css"
@@ -2950,8 +2950,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "s0s7l8qzkt",
-      "Integrity": "ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk=",
+      "Fingerprint": "nqfp5zjilh",
+      "Integrity": "71yuiZ+EH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\scopedcss\\bundle\\PecckosChatProgram.styles.css"
@@ -2971,8 +2971,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "s0s7l8qzkt",
-      "Integrity": "ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk=",
+      "Fingerprint": "nqfp5zjilh",
+      "Integrity": "71yuiZ+EH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PecckosChatProgram.bundle.scp.css"
@@ -40215,12 +40215,12 @@
     },
     {
       "Route": "PecckosChatProgram.bundle.scp.css",
-      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\1r8pfrgci6-s0s7l8qzkt.gz",
+      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\1r8pfrgci6-nqfp5zjilh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001569858713"
+          "Quality": "0.001430615165"
         }
       ],
       "ResponseHeaders": [
@@ -40230,15 +40230,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "636"
+          "Value": "698"
         },
         {
           "Name": "ETag",
-          "Value": "\"TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg=\""
+          "Value": "\"2J8BmB2tczSvh1t2yy/Qid6T2QL2eR/d2CAFttS3EH0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 09:31:26 GMT"
+          "Value": "Tue, 18 Feb 2025 20:28:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -40258,13 +40258,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk=\""
+          "Value": "W/\"71yuiZ+EH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk="
+          "Value": "sha256-71yuiZ+EH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs="
         }
       ]
     },
@@ -40279,7 +40279,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1383"
+          "Value": "1493"
         },
         {
           "Name": "Content-Type",
@@ -40287,11 +40287,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk=\""
+          "Value": "\"71yuiZ+EH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 09:31:26 GMT"
+          "Value": "Tue, 18 Feb 2025 20:28:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -40301,13 +40301,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk="
+          "Value": "sha256-71yuiZ+EH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs="
         }
       ]
     },
     {
       "Route": "PecckosChatProgram.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\1r8pfrgci6-s0s7l8qzkt.gz",
+      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\1r8pfrgci6-nqfp5zjilh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -40316,7 +40316,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "636"
+          "Value": "698"
         },
         {
           "Name": "Content-Type",
@@ -40324,11 +40324,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg=\""
+          "Value": "\"2J8BmB2tczSvh1t2yy/Qid6T2QL2eR/d2CAFttS3EH0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 09:31:26 GMT"
+          "Value": "Tue, 18 Feb 2025 20:28:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -40346,7 +40346,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg="
+          "Value": "sha256-2J8BmB2tczSvh1t2yy/Qid6T2QL2eR/d2CAFttS3EH0="
         }
       ]
     },
@@ -40984,6 +40984,328 @@
       ]
     },
     {
+      "Route": "PecckosChatProgram.nqfp5zjilh.bundle.scp.css",
+      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\1r8pfrgci6-nqfp5zjilh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001430615165"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "698"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2J8BmB2tczSvh1t2yy/Qid6T2QL2eR/d2CAFttS3EH0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 20:28:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"71yuiZ+EH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nqfp5zjilh"
+        },
+        {
+          "Name": "label",
+          "Value": "PecckosChatProgram.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-71yuiZ+EH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs="
+        }
+      ]
+    },
+    {
+      "Route": "PecckosChatProgram.nqfp5zjilh.bundle.scp.css",
+      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PecckosChatProgram.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1493"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"71yuiZ+EH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 20:28:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nqfp5zjilh"
+        },
+        {
+          "Name": "label",
+          "Value": "PecckosChatProgram.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-71yuiZ+EH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs="
+        }
+      ]
+    },
+    {
+      "Route": "PecckosChatProgram.nqfp5zjilh.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\1r8pfrgci6-nqfp5zjilh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2J8BmB2tczSvh1t2yy/Qid6T2QL2eR/d2CAFttS3EH0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 20:28:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nqfp5zjilh"
+        },
+        {
+          "Name": "label",
+          "Value": "PecckosChatProgram.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2J8BmB2tczSvh1t2yy/Qid6T2QL2eR/d2CAFttS3EH0="
+        }
+      ]
+    },
+    {
+      "Route": "PecckosChatProgram.nqfp5zjilh.styles.css",
+      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\4anez4rhf7-nqfp5zjilh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001430615165"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "698"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2J8BmB2tczSvh1t2yy/Qid6T2QL2eR/d2CAFttS3EH0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 20:28:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"71yuiZ+EH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nqfp5zjilh"
+        },
+        {
+          "Name": "label",
+          "Value": "PecckosChatProgram.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-71yuiZ+EH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs="
+        }
+      ]
+    },
+    {
+      "Route": "PecckosChatProgram.nqfp5zjilh.styles.css",
+      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\scopedcss\\bundle\\PecckosChatProgram.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1493"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"71yuiZ+EH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 20:28:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nqfp5zjilh"
+        },
+        {
+          "Name": "label",
+          "Value": "PecckosChatProgram.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-71yuiZ+EH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs="
+        }
+      ]
+    },
+    {
+      "Route": "PecckosChatProgram.nqfp5zjilh.styles.css.gz",
+      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\4anez4rhf7-nqfp5zjilh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2J8BmB2tczSvh1t2yy/Qid6T2QL2eR/d2CAFttS3EH0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 20:28:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nqfp5zjilh"
+        },
+        {
+          "Name": "label",
+          "Value": "PecckosChatProgram.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2J8BmB2tczSvh1t2yy/Qid6T2QL2eR/d2CAFttS3EH0="
+        }
+      ]
+    },
+    {
       "Route": "PecckosChatProgram.olj303f90g.pdb",
       "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\hfuiizzvow-olj303f90g.gz",
       "Selectors": [
@@ -41580,328 +41902,6 @@
       ]
     },
     {
-      "Route": "PecckosChatProgram.s0s7l8qzkt.bundle.scp.css",
-      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\1r8pfrgci6-s0s7l8qzkt.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001569858713"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "636"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 09:31:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "s0s7l8qzkt"
-        },
-        {
-          "Name": "label",
-          "Value": "PecckosChatProgram.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk="
-        }
-      ]
-    },
-    {
-      "Route": "PecckosChatProgram.s0s7l8qzkt.bundle.scp.css",
-      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PecckosChatProgram.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1383"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 09:31:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "s0s7l8qzkt"
-        },
-        {
-          "Name": "label",
-          "Value": "PecckosChatProgram.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk="
-        }
-      ]
-    },
-    {
-      "Route": "PecckosChatProgram.s0s7l8qzkt.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\1r8pfrgci6-s0s7l8qzkt.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "636"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 09:31:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "s0s7l8qzkt"
-        },
-        {
-          "Name": "label",
-          "Value": "PecckosChatProgram.bundle.scp.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg="
-        }
-      ]
-    },
-    {
-      "Route": "PecckosChatProgram.s0s7l8qzkt.styles.css",
-      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\4anez4rhf7-s0s7l8qzkt.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001569858713"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "636"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 09:31:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "s0s7l8qzkt"
-        },
-        {
-          "Name": "label",
-          "Value": "PecckosChatProgram.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk="
-        }
-      ]
-    },
-    {
-      "Route": "PecckosChatProgram.s0s7l8qzkt.styles.css",
-      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\scopedcss\\bundle\\PecckosChatProgram.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1383"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 09:31:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "s0s7l8qzkt"
-        },
-        {
-          "Name": "label",
-          "Value": "PecckosChatProgram.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk="
-        }
-      ]
-    },
-    {
-      "Route": "PecckosChatProgram.s0s7l8qzkt.styles.css.gz",
-      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\4anez4rhf7-s0s7l8qzkt.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "636"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 09:31:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "s0s7l8qzkt"
-        },
-        {
-          "Name": "label",
-          "Value": "PecckosChatProgram.styles.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg="
-        }
-      ]
-    },
-    {
       "Route": "PecckosChatProgram.staticwebassets.endpoints.json",
       "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\fco71w5n00-whis7l7ii0.gz",
       "Selectors": [
@@ -42201,12 +42201,12 @@
     },
     {
       "Route": "PecckosChatProgram.styles.css",
-      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\4anez4rhf7-s0s7l8qzkt.gz",
+      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\4anez4rhf7-nqfp5zjilh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001569858713"
+          "Quality": "0.001430615165"
         }
       ],
       "ResponseHeaders": [
@@ -42216,15 +42216,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "636"
+          "Value": "698"
         },
         {
           "Name": "ETag",
-          "Value": "\"TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg=\""
+          "Value": "\"2J8BmB2tczSvh1t2yy/Qid6T2QL2eR/d2CAFttS3EH0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 09:31:26 GMT"
+          "Value": "Tue, 18 Feb 2025 20:28:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -42244,13 +42244,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk=\""
+          "Value": "W/\"71yuiZ+EH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk="
+          "Value": "sha256-71yuiZ+EH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs="
         }
       ]
     },
@@ -42265,7 +42265,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1383"
+          "Value": "1493"
         },
         {
           "Name": "Content-Type",
@@ -42273,11 +42273,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk=\""
+          "Value": "\"71yuiZ+EH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 09:31:26 GMT"
+          "Value": "Tue, 18 Feb 2025 20:28:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -42287,13 +42287,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk="
+          "Value": "sha256-71yuiZ+EH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs="
         }
       ]
     },
     {
       "Route": "PecckosChatProgram.styles.css.gz",
-      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\4anez4rhf7-s0s7l8qzkt.gz",
+      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\obj\\Debug\\net9.0\\compressed\\4anez4rhf7-nqfp5zjilh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -42302,7 +42302,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "636"
+          "Value": "698"
         },
         {
           "Name": "Content-Type",
@@ -42310,11 +42310,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg=\""
+          "Value": "\"2J8BmB2tczSvh1t2yy/Qid6T2QL2eR/d2CAFttS3EH0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 09:31:26 GMT"
+          "Value": "Tue, 18 Feb 2025 20:28:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -42332,7 +42332,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TS1Oen9G+YLxAW/V4jp00HtnQfZupl1jaNaU1Se7Peg="
+          "Value": "sha256-2J8BmB2tczSvh1t2yy/Qid6T2QL2eR/d2CAFttS3EH0="
         }
       ]
     },

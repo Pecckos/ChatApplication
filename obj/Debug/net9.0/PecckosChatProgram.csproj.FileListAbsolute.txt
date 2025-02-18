@@ -53,10 +53,14 @@ C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\bin\Debug\net9.0\Microsof
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\bin\Debug\net9.0\Microsoft.OpenApi.dll
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\bin\Debug\net9.0\Mono.TextTemplating.dll
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\bin\Debug\net9.0\System.ClientModel.dll
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\bin\Debug\net9.0\System.CodeDom.dll
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\bin\Debug\net9.0\System.Composition.AttributedModel.dll
@@ -162,6 +166,7 @@ C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\PecckosC
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\PecckosChatProgram.AssemblyInfoInputs.cache
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\PecckosChatProgram.AssemblyInfo.cs
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\PecckosChatProgram.csproj.CoreCompileInputs.cache
+C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\PecckosChatProgram.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\PecckosChatProgram.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\PecckosChatProgram.RazorAssemblyInfo.cache
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\PecckosChatProgram.RazorAssemblyInfo.cs
@@ -306,8 +311,6 @@ C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compress
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\dj65t4ff20-5zdbbae7gl.gz
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\5grd7c4hg2-cdoe6o59zq.gz
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\s8kfcvzndc-4zvswsexco.gz
-C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\4anez4rhf7-s0s7l8qzkt.gz
-C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\1r8pfrgci6-s0s7l8qzkt.gz
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -323,3 +326,5 @@ C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\refint\P
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\PecckosChatProgram.pdb
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\PecckosChatProgram.genruntimeconfig.cache
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\ref\PecckosChatProgram.dll
+C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\4anez4rhf7-nqfp5zjilh.gz
+C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\1r8pfrgci6-nqfp5zjilh.gz

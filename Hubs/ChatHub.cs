@@ -10,7 +10,9 @@ namespace PecckosChatProgram.Hubs
     {
         public async Task SendMessage(string userName, string message)
         {
-            var timeStamp = DateTime.Now.ToString("HH:mm");
+            var swedenTimeZone = TimeZoneInfo.FindSystemTimeZoneById("W. Europe Standard Time");
+            var swedishTime = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, swedenTimeZone);
+            var timeStamp = swedishTime.ToString("yyyy-MM-ddTHH:mm:ss");
              //"reciveMessage method will be called on the client side. Sending anonymous object whit user, message and timestamp properties.
             await Clients.All.SendAsync("ReceiveMessage", userName, message, timeStamp);
         }

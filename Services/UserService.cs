@@ -43,5 +43,26 @@ namespace PecckosChatProgram.Service
             return user;
 
         }
+
+
+        public async Task<ChatMessage> SendMessageAsync(int userId, string messageContent)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == userId);
+            if (user == null)
+            {
+                return null; // Om användaren inte finns
+            }
+
+            var message = new ChatMessage
+            {
+                UserId = userId,
+                MessagesChat = messageContent,
+                TimeStamp = DateTime.Now
+            };
+
+            _context.MessagesChat.Add(message);
+            await _context.SaveChangesAsync();
+            return null; // Meddelandet skickades och sparades
+        }
     }
 }

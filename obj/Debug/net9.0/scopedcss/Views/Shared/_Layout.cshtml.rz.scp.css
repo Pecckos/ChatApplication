@@ -39,6 +39,11 @@ button.accept-policy[b-rb8oh9d9hd] {
   line-height: inherit;
 }
 
+#chatMessages[b-rb8oh9d9hd] {
+  height: 400px; /* eller den höjd du önskar */
+  overflow-y: scroll;
+}
+
 .footer[b-rb8oh9d9hd] {
   position: absolute;
   bottom: 0;

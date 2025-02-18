@@ -1237,10 +1237,10 @@
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"656384"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022gkIipvi93hhq6PE\u002BWvoKU82xCfBcfl2PTHNjD3enxt4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 24 Mar 2018 17:44:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PecckosChatProgram/PecckosChatProgram.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PecckosChatProgram.s0s7l8qzkt.bundle.scp.css'))</AssetFile>
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PecckosChatProgram.nqfp5zjilh.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1383"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 09:31:26 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-71yuiZ\u002BEH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1493"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002271yuiZ\u002BEH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Feb 2025 20:28:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PecckosChatProgram/PecckosChatProgram.deps.2lgcb0i0e2.json">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PecckosChatProgram.deps.json'))</AssetFile>
@@ -1272,6 +1272,12 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j5r4orapsq"},{"Name":"integrity","Value":"sha256-d6YIE1ubMl8txHyV8nHzejdfplhXMjbFtGUn0qhHBB0="},{"Name":"label","Value":"_content/PecckosChatProgram/PecckosChatProgram.dll"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"87040"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022d6YIE1ubMl8txHyV8nHzejdfplhXMjbFtGUn0qhHBB0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 28 Jan 2025 12:37:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PecckosChatProgram/PecckosChatProgram.nqfp5zjilh.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PecckosChatProgram.nqfp5zjilh.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nqfp5zjilh"},{"Name":"integrity","Value":"sha256-71yuiZ\u002BEH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs="},{"Name":"label","Value":"_content/PecckosChatProgram/PecckosChatProgram.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1493"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002271yuiZ\u002BEH2VEZNEM5lTcS29aHlqc0Inyo1eMMSkBgVs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Feb 2025 20:28:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PecckosChatProgram/PecckosChatProgram.olj303f90g.pdb">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PecckosChatProgram.pdb'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -1295,12 +1301,6 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ve45upgyrd"},{"Name":"integrity","Value":"sha256-lwdDA112p\u002B8sVVz8kyYHeLE9A\u002B2IYI8x4Ea\u002BdxD27Q8="},{"Name":"label","Value":"_content/PecckosChatProgram/PecckosChatProgram.runtimeconfig.json"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"557"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022lwdDA112p\u002B8sVVz8kyYHeLE9A\u002B2IYI8x4Ea\u002BdxD27Q8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 28 Jan 2025 12:37:49 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PecckosChatProgram/PecckosChatProgram.s0s7l8qzkt.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PecckosChatProgram.s0s7l8qzkt.bundle.scp.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s0s7l8qzkt"},{"Name":"integrity","Value":"sha256-ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk="},{"Name":"label","Value":"_content/PecckosChatProgram/PecckosChatProgram.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1383"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ZMGYoKRlQZC7Y3ujuAN4CDOCx4V5w4piQmnWGE4AdRk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 09:31:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PecckosChatProgram/PecckosChatProgram.staticwebassets.endpoints.json">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PecckosChatProgram.staticwebassets.endpoints.json'))</AssetFile>
