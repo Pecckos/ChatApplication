@@ -328,3 +328,5 @@ C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\PecckosC
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\ref\PecckosChatProgram.dll
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\4anez4rhf7-nqfp5zjilh.gz
 C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\obj\Debug\net9.0\compressed\1r8pfrgci6-nqfp5zjilh.gz
+C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\bin\Debug\net9.0\package-lock.json
+C:\Users\jessi\Desktop\PecckosChatt\PecckosChatProgram\bin\Debug\net9.0\package.json

@@ -34,7 +34,7 @@ namespace PecckosChatProgram.Service
         }
 
         //Checks if email and password is correct, if user or password is wrong then return null, otherwise return user.
-        public async Task<User> AuthenticateAsync(string userName, string email, string password)
+        public async Task<User> AuthenticateAsync(string email, string password)
         {
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email );
             if (user == null || !BCrypt.Net.BCrypt.Verify(password, user.PasswordHash ))

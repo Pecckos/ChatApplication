@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rywOcDAh4mHxP+Fep9zHRz5fJLMiklr4zUAAGUrloJI=",
+  "Hash": "Z03Gf7nv1YiVU0vYaw7X3Wynw/1QM4Dc5xYtOZAGt9c=",
   "Source": "PecckosChatProgram",
   "BasePath": "_content/PecckosChatProgram",
   "Mode": "Default",
@@ -3144,6 +3144,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\images\\bombpic.jpg",
+      "SourceId": "PecckosChatProgram",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\",
+      "BasePath": "_content/PecckosChatProgram",
+      "RelativePath": "images/bombpic#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r042g8xrad",
+      "Integrity": "24AgVU/NNFwI/j1RRaqiZMk6op9jiU0gBV8c1n58v+M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bombpic.jpg"
     },
     {
       "Identity": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\images\\ChatPecckos.jpg",
@@ -12332,6 +12353,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "images/bombpic.jpg",
+      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\images\\bombpic.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24846"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"24AgVU/NNFwI/j1RRaqiZMk6op9jiU0gBV8c1n58v+M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 14:40:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-24AgVU/NNFwI/j1RRaqiZMk6op9jiU0gBV8c1n58v+M="
+        }
+      ]
+    },
+    {
+      "Route": "images/bombpic.r042g8xrad.jpg",
+      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\images\\bombpic.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24846"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"24AgVU/NNFwI/j1RRaqiZMk6op9jiU0gBV8c1n58v+M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 14:40:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r042g8xrad"
+        },
+        {
+          "Name": "label",
+          "Value": "images/bombpic.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-24AgVU/NNFwI/j1RRaqiZMk6op9jiU0gBV8c1n58v+M="
         }
       ]
     },

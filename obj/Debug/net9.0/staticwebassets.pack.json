@@ -241,6 +241,10 @@
       "PackagePath": "staticwebassets\\images\\ChatPecckos.jpg"
     },
     {
+      "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\images\\bombpic.jpg",
+      "PackagePath": "staticwebassets\\images\\bombpic.jpg"
+    },
+    {
       "Id": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

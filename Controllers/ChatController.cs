@@ -42,9 +42,9 @@ public class ChatController : Controller
 
 
     // //Send a new message
-     [HttpPost]
-     public async Task<IActionResult> SendMessage([FromBody] ChatMessage chatMessage)
-{
+    [HttpPost]
+    public async Task<IActionResult> SendMessage([FromBody] ChatMessage chatMessage)
+    {
     if (string.IsNullOrWhiteSpace(chatMessage.MessagesChat))
     {
         return Json(new { success = false, message = "Meddelandet kan inte vara tomt." });

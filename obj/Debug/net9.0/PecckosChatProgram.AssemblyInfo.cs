@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PecckosChatProgram")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53b689e3471aa7309962e128e2e98496827990ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b6440151ecf0596a9493a222e1afb72a6cc3e9b")]
 [assembly: System.Reflection.AssemblyProductAttribute("PecckosChatProgram")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PecckosChatProgram")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

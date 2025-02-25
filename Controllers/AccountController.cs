@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 
+
 namespace PecckosChatProgram.Controllers
 {
 
@@ -14,11 +15,13 @@ public class AccountController : Controller
 {
     private readonly ChatDbContext _context; 
     private readonly UserService _userService;
+    private readonly ILogger<AccountController> _logger;
 
-    public AccountController(ChatDbContext context, UserService userService)
+    public AccountController(ChatDbContext context, UserService userService, ILogger<AccountController> logger)
     {
         _context = context; //Inject the database connection
         _userService = userService; //Inject the service
+        _logger = logger;
     }
     [HttpGet]
     public IActionResult Login()
@@ -61,11 +64,16 @@ public class AccountController : Controller
     }
 
    [HttpPost]
-    public async Task<IActionResult> Login(string userName, string email, string password)
+    public async Task<IActionResult> Login(string email, string password)
     {
         try
         {
-            var user = await _userService.AuthenticateAsync(userName, email, password);
+            var user = await _userService.AuthenticateAsync(email, password);
+            if (user == null){
+                ModelState.AddModelError("", "Wrong password or email");
+                return View();
+            }
+
             if (user != null)
             {
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, 
@@ -75,13 +83,12 @@ public class AccountController : Controller
                     CookieAuthenticationDefaults.AuthenticationScheme)));
                 return RedirectToAction("Index", "Chat");
             }
-
-            ModelState.AddModelError("", "Ogiltigt användarnamn eller lösenord");
             return View();
         }
         catch (Exception ex)
         {
             // Logga felet
+            _logger.LogError(ex, "Someting went wrong, opsie..");
             return View("Error");
         }
     }

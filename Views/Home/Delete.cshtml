@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete all</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Animate.css för animationer -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons för ikoner -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Din egen CSS-fil -->
+    <style>
+        /* CSS för att stödja designen */
+
+        a.navbar-brand {
+            white-space: normal;
+            text-align: center;
+            word-break: break-all;
+        }
+
+        a {
+            color: #0077cc;
+        }
+
+        .btn-primary {
+            color: #fff;
+            background-color: #1b6ec2;
+            border-color: #1861ac;
+        }
+
+        .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+            color: #fff;
+            background-color: #1b6ec2;
+            border-color: #1861ac;
+        }
+
+        .border-top {
+            border-top: 1px solid #e5e5e5;
+        }
+        .border-bottom {
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .box-shadow {
+            box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+        }
+
+        button.accept-policy {
+            font-size: 1rem;
+            line-height: inherit;
+        }
+
+        #chatMessages {
+            height: 400px; /* eller den höjd du önskar */
+            overflow-y: scroll;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            white-space: nowrap;
+            line-height: 60px;
+        }
+
+        .message-bubble {
+            display: inline-block;
+            max-width: 80%;
+            word-wrap: break-word;
+        }
+
+       
+
+        /* För anpassad bakgrund och stil */
+        .container {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1d/Bomb_icon.svg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .card {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .card-title {
+            animation: fadeInDown 1s;
+        }
+
+        .btn-danger {
+            font-size: 2rem;
+            background-color: #FF0000;
+            border-color: #B22222;
+            box-shadow: 0 4px 20px rgba(255, 0, 0, 0.6);
+            transition: transform 0.3s;
+        }
+
+        .btn-danger:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <!-- Card med skuggor och mjuka hörn -->
+            <div class="card shadow-lg text-white border-light rounded-3">
+                <div class="card-body text-center">
+                    <!-- Titel med animation -->
+                    <h2 class="card-title mb-4 animate__animated animate__fadeInDown animate__delay-1s">DELETE ALL MESSAGES</h2>
+                    <p class="lead mb-4 animate__animated animate__fadeIn animate__delay-2s">Are you sure you want to delete all messages? This action cannot be undone!</p>
+
+                    <!-- Dynamisk DELETE-knapp med glödande effekt -->
+                    <button id="deleteBtn" class="btn btn-danger btn-lg btn-block animate__animated animate__pulse animate__infinite">
+                        <i class="bi bi-bomb"></i> DELETE ALL MESSAGES
+                    </button>
+
+                    <!-- Första varningsmodalen -->
+                    <div class="modal fade" id="confirmDeleteModal" tabindex="-1" role="dialog" aria-labelledby="confirmDeleteModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content bg-warning text-dark rounded-3">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="confirmDeleteModalLabel">Are you sure?</h5>
+                                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                     Are you really reeeaallllyy sure??
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nooo</button>
+                                    <button type="button" class="btn btn-primary" id="yesBtn">Hell yeah</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Andra varningsmodalen -->
+                 <div class="modal fade" id="finalConfirmDeleteModal" tabindex="-1" role="dialog" aria-labelledby="finalConfirmDeleteModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content bg-danger text-white rounded-3">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="finalConfirmDeleteModalLabel">Are you really really sure?</h5>
+                                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Look, think.. Do you REALLY want This? 
+                                    If yeah then put in the correct password:
+                                    <input type="password" id="deletePassword" class="form-control mt-3" placeholder="Skriv lösenordet här">
+                                    <small class="text-warning" id="passwordError" style="display: none;">WRONG!</small>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No!</button>
+                                    <button type="button" class="btn btn-danger" id="finalYesBtn" disabled>DELETE THIS NOOOW!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Lägg till Bootstrap och Animate.css för snygga animationer -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/animate.css"></script>
+
+<script>
+
+    const correctPassword = "radera123";
+
+     document.getElementById("deletePassword").addEventListener("input", function () {
+        let inputPassword = this.value;
+        let deleteBtn = document.getElementById("finalYesBtn");
+
+        if (inputPassword === correctPassword) {
+            deleteBtn.disabled = false; // Aktivera knappen om lösenordet är rätt
+            document.getElementById("passwordError").style.display = "none";
+        } else {
+            deleteBtn.disabled = true; // Inaktivera om fel lösenord skrivs
+            document.getElementById("passwordError").style.display = "block";
+        }
+    });
+
+    document.getElementById("deleteBtn").addEventListener("click", function() {
+        // Öppna första modalen (Confirm Delete)
+        var myModal = new bootstrap.Modal(document.getElementById('confirmDeleteModal'), {
+            keyboard: false
+        });
+        myModal.show();
+    });
+
+    document.querySelectorAll(".btn-secondary, .close").forEach(button => {
+    button.addEventListener("click", function () {
+        let confirmModal = bootstrap.Modal.getInstance(document.getElementById('confirmDeleteModal'));
+        let finalModal = bootstrap.Modal.getInstance(document.getElementById('finalConfirmDeleteModal'));
+
+        if (confirmModal) confirmModal.hide();
+        if (finalModal) finalModal.hide();
+    });
+});
+
+    document.getElementById("yesBtn").addEventListener("click", function() {
+        // Stäng första modalen och öppna den andra
+        var myModal = new bootstrap.Modal(document.getElementById('confirmDeleteModal'));
+        myModal.hide();
+
+        var finalModal = new bootstrap.Modal(document.getElementById('finalConfirmDeleteModal'), {
+            keyboard: false
+        });
+        finalModal.show();
+    });
+
+   document.getElementById("finalYesBtn").addEventListener("click", function() {
+    fetch('/Home/DeleteAllMessages', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({})
+    }).then(response => {
+        if (response.ok) {
+            alert("All messages were deleted!");
+            location.reload(); 
+        } else {
+            alert("Something went wrong when deleting!");
+        }
+    }).catch(error => console.error("Errors when deleting:", error));
+});
+</script>
+</body>
+</html>

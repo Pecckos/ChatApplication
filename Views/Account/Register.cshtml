@@ -5,7 +5,7 @@
 
 <div class="row">
     <div class="col-md-6 offset-md-3">
-        <h2 class="text-center mb-4">Registrera</h2>
+        <h2 class="text-center mb-4">Register</h2>
         <form asp-action="Register" asp-controller="Account" method="post">
             <div asp-validation-summary="All" class="text-danger"></div>
             <div class="form-group mb-3">
@@ -28,10 +28,10 @@
                 <input asp-for="ConfirmPassword" class="form-control" />
                 <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
             </div>
-            <button type="submit" class="btn btn-primary w-100">Registrera</button>
+            <button type="submit" class="btn btn-primary w-100">Register</button>
         </form>
         <p class="text-center mt-3">
-            Har du redan ett konto? <a asp-action="Login">Logga in här</a>
+            Already have an account? <a asp-action="Login">Log in here</a>
         </p>
     </div>
 </div>
