@@ -47,7 +47,7 @@ public class ChatController : Controller
     {
     if (string.IsNullOrWhiteSpace(chatMessage.MessagesChat))
     {
-        return Json(new { success = false, message = "Meddelandet kan inte vara tomt." });
+        return Json(new { success = false, message = "Message cant be empty." });
     }
 
     var userEmail = User.FindFirstValue(ClaimTypes.Email);

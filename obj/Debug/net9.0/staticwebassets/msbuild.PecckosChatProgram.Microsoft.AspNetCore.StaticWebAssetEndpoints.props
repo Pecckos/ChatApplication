@@ -108,17 +108,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r042g8xrad"},{"Name":"integrity","Value":"sha256-24AgVU/NNFwI/j1RRaqiZMk6op9jiU0gBV8c1n58v\u002BM="},{"Name":"label","Value":"_content/PecckosChatProgram/images/bombpic.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24846"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002224AgVU/NNFwI/j1RRaqiZMk6op9jiU0gBV8c1n58v\u002BM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Feb 2025 14:40:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PecckosChatProgram/images/ChatPecckos.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ChatPecckos.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/PecckosChatProgram/images/chatpecckoss.112vtwug69.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\chatpecckoss.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3Hwrl34a/tMR1An0JvPHQqx2GMPGQYGA3bTjrUSQiRQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"51357"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00223Hwrl34a/tMR1An0JvPHQqx2GMPGQYGA3bTjrUSQiRQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 28 Jan 2025 12:19:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"112vtwug69"},{"Name":"integrity","Value":"sha256-BbnD7tPeZGUu1i2O/GN\u002BlZYRKWGqVllG4sMZVNhx\u002BEU="},{"Name":"label","Value":"_content/PecckosChatProgram/images/chatpecckoss.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"56117"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022BbnD7tPeZGUu1i2O/GN\u002BlZYRKWGqVllG4sMZVNhx\u002BEU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 14:08:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PecckosChatProgram/images/ChatPecckos.ku9csp6rwo.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ChatPecckos.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/PecckosChatProgram/images/chatpecckoss.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\chatpecckoss.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ku9csp6rwo"},{"Name":"integrity","Value":"sha256-3Hwrl34a/tMR1An0JvPHQqx2GMPGQYGA3bTjrUSQiRQ="},{"Name":"label","Value":"_content/PecckosChatProgram/images/ChatPecckos.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"51357"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00223Hwrl34a/tMR1An0JvPHQqx2GMPGQYGA3bTjrUSQiRQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 28 Jan 2025 12:19:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BbnD7tPeZGUu1i2O/GN\u002BlZYRKWGqVllG4sMZVNhx\u002BEU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"56117"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022BbnD7tPeZGUu1i2O/GN\u002BlZYRKWGqVllG4sMZVNhx\u002BEU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 14:08:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PecckosChatProgram/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

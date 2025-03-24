@@ -4,20 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delete all</title>
-
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Animate.css för animationer -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
-
-    <!-- Bootstrap Icons för ikoner -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Din egen CSS-fil -->
     <style>
-        /* CSS för att stödja designen */
-
         a.navbar-brand {
             white-space: normal;
             text-align: center;
@@ -74,12 +64,9 @@
             max-width: 80%;
             word-wrap: break-word;
         }
-
-       
-
-        /* För anpassad bakgrund och stil */
+        
         .container {
-            background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1d/Bomb_icon.svg');
+            background-image: url('images/bombpic.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -108,22 +95,18 @@
 </head>
 <body>
 
-<div class="container py-5">
+<div class="container ">
     <div class="row justify-content-center">
         <div class="col-md-6">
-            <!-- Card med skuggor och mjuka hörn -->
             <div class="card shadow-lg text-white border-light rounded-3">
                 <div class="card-body text-center">
-                    <!-- Titel med animation -->
                     <h2 class="card-title mb-4 animate__animated animate__fadeInDown animate__delay-1s">DELETE ALL MESSAGES</h2>
                     <p class="lead mb-4 animate__animated animate__fadeIn animate__delay-2s">Are you sure you want to delete all messages? This action cannot be undone!</p>
 
-                    <!-- Dynamisk DELETE-knapp med glödande effekt -->
                     <button id="deleteBtn" class="btn btn-danger btn-lg btn-block animate__animated animate__pulse animate__infinite">
                         <i class="bi bi-bomb"></i> DELETE ALL MESSAGES
                     </button>
 
-                    <!-- Första varningsmodalen -->
                     <div class="modal fade" id="confirmDeleteModal" tabindex="-1" role="dialog" aria-labelledby="confirmDeleteModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content bg-warning text-dark rounded-3">
@@ -138,13 +121,12 @@
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nooo</button>
-                                    <button type="button" class="btn btn-primary" id="yesBtn">Hell yeah</button>
+                                    <button type="button" class="btn btn-primary" id="yesBtn">yeah</button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Andra varningsmodalen -->
                  <div class="modal fade" id="finalConfirmDeleteModal" tabindex="-1" role="dialog" aria-labelledby="finalConfirmDeleteModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content bg-danger text-white rounded-3">
@@ -173,7 +155,6 @@
     </div>
 </div>
 
-<!-- Lägg till Bootstrap och Animate.css för snygga animationer -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/animate.css"></script>
 

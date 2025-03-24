@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Z03Gf7nv1YiVU0vYaw7X3Wynw/1QM4Dc5xYtOZAGt9c=",
+  "Hash": "i6MeYipqMEMqboczb31Wuid3rlYZgqNugvZJ1GVdEF8=",
   "Source": "PecckosChatProgram",
   "BasePath": "_content/PecckosChatProgram",
   "Mode": "Default",
@@ -3167,12 +3167,12 @@
       "OriginalItemSpec": "wwwroot\\images\\bombpic.jpg"
     },
     {
-      "Identity": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\images\\ChatPecckos.jpg",
+      "Identity": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\images\\chatpecckoss.jpg",
       "SourceId": "PecckosChatProgram",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\",
       "BasePath": "_content/PecckosChatProgram",
-      "RelativePath": "images/ChatPecckos#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/chatpecckoss#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3181,11 +3181,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ku9csp6rwo",
-      "Integrity": "3Hwrl34a/tMR1An0JvPHQqx2GMPGQYGA3bTjrUSQiRQ=",
+      "Fingerprint": "112vtwug69",
+      "Integrity": "BbnD7tPeZGUu1i2O/GN+lZYRKWGqVllG4sMZVNhx+EU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\ChatPecckos.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\chatpecckoss.jpg"
     },
     {
       "Identity": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\js\\site.js",
@@ -12439,8 +12439,8 @@
       ]
     },
     {
-      "Route": "images/ChatPecckos.jpg",
-      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\images\\ChatPecckos.jpg",
+      "Route": "images/chatpecckoss.112vtwug69.jpg",
+      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\images\\chatpecckoss.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12449,7 +12449,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "51357"
+          "Value": "56117"
         },
         {
           "Name": "Content-Type",
@@ -12457,48 +12457,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3Hwrl34a/tMR1An0JvPHQqx2GMPGQYGA3bTjrUSQiRQ=\""
+          "Value": "\"BbnD7tPeZGUu1i2O/GN+lZYRKWGqVllG4sMZVNhx+EU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 12:19:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-3Hwrl34a/tMR1An0JvPHQqx2GMPGQYGA3bTjrUSQiRQ="
-        }
-      ]
-    },
-    {
-      "Route": "images/ChatPecckos.ku9csp6rwo.jpg",
-      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\images\\ChatPecckos.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "51357"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3Hwrl34a/tMR1An0JvPHQqx2GMPGQYGA3bTjrUSQiRQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 12:19:30 GMT"
+          "Value": "Mon, 24 Mar 2025 14:08:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12508,15 +12471,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ku9csp6rwo"
+          "Value": "112vtwug69"
         },
         {
           "Name": "label",
-          "Value": "images/ChatPecckos.jpg"
+          "Value": "images/chatpecckoss.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3Hwrl34a/tMR1An0JvPHQqx2GMPGQYGA3bTjrUSQiRQ="
+          "Value": "sha256-BbnD7tPeZGUu1i2O/GN+lZYRKWGqVllG4sMZVNhx+EU="
+        }
+      ]
+    },
+    {
+      "Route": "images/chatpecckoss.jpg",
+      "AssetFile": "C:\\Users\\jessi\\Desktop\\PecckosChatt\\PecckosChatProgram\\wwwroot\\images\\chatpecckoss.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BbnD7tPeZGUu1i2O/GN+lZYRKWGqVllG4sMZVNhx+EU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 14:08:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BbnD7tPeZGUu1i2O/GN+lZYRKWGqVllG4sMZVNhx+EU="
         }
       ]
     },
